@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "160EF594-AE7A-40AF-96F6-8C82B1E20810"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CF64AF5-C42C-412A-B808-301F098C187F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rick&amp;Morty (MVVM)/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SceneDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2CF64AF5-C42C-412A-B808-301F098C187F - ee61eb7b490dc12c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_Morty__MVVM_.SceneDelegate.__allocating_init() -&gt; Rick_Morty__MVVM_.SceneDelegate"
+                  moduleName = "Rick&amp;Morty (MVVM)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/N339609/Desktop/Rick&amp;Morty%20(MVVM)/Rick&amp;Morty%20(MVVM)/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "2CF64AF5-C42C-412A-B808-301F098C187F - eafb9e3bc373fcbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_Morty__MVVM_.SceneDelegate.init() -&gt; Rick_Morty__MVVM_.SceneDelegate"
+                  moduleName = "Rick&amp;Morty (MVVM)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/N339609/Desktop/Rick&amp;Morty%20(MVVM)/Rick&amp;Morty%20(MVVM)/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "2CF64AF5-C42C-412A-B808-301F098C187F - a45a042ccb20f804"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_Morty__MVVM_.SceneDelegate.__deallocating_deinit"
+                  moduleName = "Rick&amp;Morty (MVVM)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/N339609/Desktop/Rick&amp;Morty%20(MVVM)/Rick&amp;Morty%20(MVVM)/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
