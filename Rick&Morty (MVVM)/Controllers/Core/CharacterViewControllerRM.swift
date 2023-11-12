@@ -15,25 +15,24 @@ import UIKit
 //Controller to show and search Characters
 final class CharacterViewControllerRM: UIViewController {
 
+    private let characterListView = CharacterListView()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
         view.backgroundColor = .systemBackground //Esto significa que si el sistema del movil esta en light mode lo muestra y si está en dark pues muestra ese
         title = "Characters"
-        
-        APICalls.shared.execute(.listaCharactersRequest, expecting: GetAllCharactersStructRM.self) { result in
-            switch result {
-            case .success(let model):
-                print("Se han decodificado los datos con la estructura 'GetAllCharactersStructRM'")
-                print(String(describing: model))
-            case .failure(let failure):
-                print("Fallo 1")
-                print(String(describing: failure))
-            }
-        }
-        
-        
+        //Si estuvieramos en una view como en CharacterListView esto podria ser solo: addSubview(characterListView), porque ya estariamos en una vista
+        view.addSubview(characterListView)
+        //Esto significa que los bordes estan alineados por la parte de arriba,abajo,der y izq, teniendo en cuenta que puede ser cualquier dispositivo con una interfaz diferente... iphone 14 - ipad - iphone 7
+        NSLayoutConstraint.activate([
+            characterListView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            characterListView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor),
+            characterListView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor),
+            characterListView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+        ])
     }
-    
 
 }

@@ -6,3 +6,7 @@
 -Como ejecutamos el API
     1: Formamos el url completo en RequestRM
     2: En el APICall seteamos el tipo de httpMethhod y hacemos el decode de ese url
+
+-Si en el simulador del iphone pulsamos: Command + Shift + A, cambiamos el theme dark/light
+
+-Parte 6 vista entera, empezar la 7
