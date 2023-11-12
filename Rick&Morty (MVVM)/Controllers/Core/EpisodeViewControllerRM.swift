@@ -7,6 +7,9 @@
 
 import UIKit
 
+//final class: Una clase marcada como "final" no puede ser extendida o heredada por ninguna otra clase. Esto significa que no se pueden crear subclases o clases derivadas a partir de ella. Esto se utiliza cuando se desea impedir que una clase sea modificada o extendida.
+
+//Controller to show and search Episode
 final class EpisodeViewControllerRM: UIViewController {
 
     override func viewDidLoad() {

@@ -1,0 +1,8 @@
+-Hacer un commit en GitHub (si no es la primera vez)
+    1: git add .
+    2: git commit -m "Comentario del commmit"
+    3: git push
+    
+-Como ejecutamos el API
+    1: Formamos el url completo en RequestRM
+    2: En el APICall seteamos el tipo de httpMethhod y hacemos el decode de ese url

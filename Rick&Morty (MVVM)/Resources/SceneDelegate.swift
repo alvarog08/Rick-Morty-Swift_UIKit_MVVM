@@ -17,6 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
     //A esta funcion se la llama siempre que conecte una escena, con una escena sesion con una opcionde conexion
+    //En el parámetro de la función scene(_ scene: UIScene) significa que el argumento es omitible al llamar a la función. Esto implica que el parámetro de la función puede ser pasado o no,
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
             
             //Se intenta convertir la variable scene a un objeto UIWindowScene

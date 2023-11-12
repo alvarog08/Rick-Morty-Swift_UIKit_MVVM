@@ -9,7 +9,7 @@ import UIKit
 
 //final class: Una clase marcada como "final" no puede ser extendida o heredada por ninguna otra clase. Esto significa que no se pueden crear subclases o clases derivadas a partir de ella. Esto se utiliza cuando se desea impedir que una clase sea modificada o extendida.
 
-//UITabBarController: se utiliza para gestionar varias vistas o controladores de vista en un mismo espacio de pantalla dividido en pestañas
+//UITabBarController: se utiliza para gestionar root vista en modo TabBar
 final class TabBarControllerRM: UITabBarController {
 
     //override: Se utiliza para sobresicribir un método que ya existe en la base
